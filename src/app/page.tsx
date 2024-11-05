@@ -5,7 +5,7 @@ import SocialLink from '@/components/SocialLink';
 
 export default function Home() {
   return (
-    <div className="mx-auto max-w-prose">
+    <div className="mx-auto max-w-[50ch]">
       <header>
         <section className="mx-auto mt-8 flex w-4/5 flex-col items-center justify-center text-center">
           <Link href="https://www.nottinghamtec.co.uk/">
@@ -19,7 +19,7 @@ export default function Home() {
           <h1 className="mt-4 text-2xl font-bold">TEC PA and Lighting</h1>
         </section>
         {/* SOCIAL MEDIA LINKS */}
-        <section className="my-4 flex justify-center space-x-8 text-center">
+        <section className="my-8 flex justify-center space-x-10 text-center">
           <SocialLink href="https://www.instagram.com/nottinghamtec" src="/instagram.svg" alt="Instagram Logo" />
           <SocialLink href="https://www.facebook.com/nottinghamtec" src="/facebook.svg" alt="Facebook Logo" />
           <SocialLink href="https://www.twitter.com/nottinghamtec" src="/twitter.svg" alt="Twitter Logo" />
